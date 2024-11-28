@@ -1,3 +1,4 @@
+// Pawel Olszewski 4K
 function validatePESEL(pesel) {
     if (pesel.length !== 11 || !/^\d+$/.test(pesel)) {
      return false;
