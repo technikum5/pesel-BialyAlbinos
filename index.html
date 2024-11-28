@@ -7,8 +7,17 @@
 <body>
     <h1>Sprawdź PESEL</h1>
     <p id="message">Sprawdź PESEL</p>
-
     <!-- Dołączanie pliku JavaScript -->
-    <script src="pesel.js"></script>
+    <div class="container">
+        <label for="pesel">Podaj numer PESEL:</label>
+        <input type="text" id="pesel" maxlength="11" placeholder="Wprowadź numer PESEL" />
+ 
+        <button onclick="showPESELInfo()">Sprawdź informacje</button>
+ 
+        <div class="result" id="result">
+           
+        </div>
+    </div>
+    <script lang="JavaScript" src="pesel.js"></script>
 </body>
 </html>
